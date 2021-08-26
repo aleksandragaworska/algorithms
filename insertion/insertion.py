@@ -54,3 +54,14 @@ def insertion_sort_for_range(not_sorted):
                 swap(list_to_sort, j + 1)
 
     return list_to_sort
+
+
+def insertion_sort_for_range_2(not_sorted):
+    list_to_sort = not_sorted.copy()
+
+    for i, main_elem in enumerate(list_to_sort):
+        for j in range(i, 0, -1):
+            if main_elem < list_to_sort[j - 1]:
+                swap(list_to_sort, j)
+
+    return list_to_sort
