@@ -1,10 +1,10 @@
 import pytest
 
-from bubble.bubble import (
+from sorts.bubble.bubble import (
     bubble_sort
 )
 
-from tests.conftest import test_cases
+from tests.test_sorts.conftest import test_cases
 
 
 @pytest.mark.parametrize('not_sorted, expected', test_cases)

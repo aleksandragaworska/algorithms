@@ -1,13 +1,13 @@
 import pytest
 
-from selection.selection import (
+from sorts.selection.selection import (
     selection_sort_recursive,
     selection_sort_for,
     selection_sort_swap,
     selection_sort_swap_2,
     selection_sort_swap_3,
 )
-from tests.conftest import test_cases
+from tests.test_sorts.conftest import test_cases
 
 
 @pytest.mark.parametrize("not_sorted, expected", test_cases)

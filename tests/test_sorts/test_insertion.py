@@ -1,13 +1,13 @@
 import pytest
 
-from insertion.insertion import (
+from sorts.insertion.insertion import (
     insertion_sort_recursive,
     insertion_sort_for,
     insertion_sort_for_range,
     insertion_sort_for_range_2,
 )
 
-from tests.conftest import test_cases
+from tests.test_sorts.conftest import test_cases
 
 
 @pytest.mark.parametrize('not_sorted, expected', test_cases)
