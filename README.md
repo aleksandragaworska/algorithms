@@ -1,2 +1,2 @@
 # algorithms
-Implementation of popular sorting algorithms
+Implementation of popular sorting and searching algorithms
